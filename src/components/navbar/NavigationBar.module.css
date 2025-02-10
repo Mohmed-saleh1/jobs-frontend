@@ -1,0 +1,161 @@
+/* Navbar Base */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 100;
+}
+
+/* Logo */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #8b0000;
+  transition: color 0.3s ease;
+}
+
+.title:hover {
+  color: #b22222;
+}
+
+/* Desktop Navigation */
+.navLinks {
+  display: flex;
+  gap: 40px;
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #1a237e;
+}
+
+/* Right Container */
+.rightContainer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* job Button */
+.jobButton {
+  background-color: #1a237e;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.jobButton:hover {
+  background-color: #311b92;
+}
+
+/* Mobile Menu */
+.mobileMenuContainer {
+  position: relative;
+}
+
+/* Menu Button */
+.menuButton {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.menuButtonActive {
+  transform: rotate(90deg);
+}
+
+/* Mobile Navigation */
+.mobileMenu {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background: white;
+  flex-direction: column;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  display: none;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+/* Open Menu */
+.mobileMenu.open {
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Mobile Navigation Links */
+.mobileMenu .navLink {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.mobileMenu .navLink:hover {
+  color: #1a237e;
+}
+
+/* Responsive Design */
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+  .navLinks {
+    gap: 20px;
+  }
+  .jobButton {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuButton {
+    display: block;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .jobButton {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

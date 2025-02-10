@@ -1,16 +1,73 @@
 {
+  "languages": {
+    "en": "Inglés",
+    "ar": "Árabe",
+    "fr": "Francés",
+    "es": "Español",
+    "de": "Alemán",
+    "it": "Italiano"
+  },
+  "nav": {
+    "home": "Inicio",
+    "team": "Equipo",
+    "title": "SA COSMOS",
+    "subtitle": "Servicios de Traducción",
+    "translate": "SA Traducir",
+    "about": "Sobre nosotros",
+    "contact": "Contáctanos",
+    "language": "Español",
+    "job": " Publicar un Trabajo"
+  },
+  "contactForm": {
+    "heading": "Déjanos ayudarte",
+    "subHeading": "Obtén una consulta gratuita de nuestro equipo",
+    "description": "Puedes escribirnos en cualquier momento y responderemos a tus mensajes lo antes posible",
+    "logoAlt": "Logo de SA COSMOS",
+    "formFields": {
+      "name": "Nombre*",
+      "namePlaceholder": "Tu nombre",
+      "email": "Correo electrónico*",
+      "emailPlaceholder": "ejemplo@email.com",
+      "contactNumber": "Número de contacto*",
+      "contactNumberPlaceholder": "Tu número de contacto",
+      "message": "Mensaje*",
+      "messagePlaceholder": "Tu mensaje aquí",
+      "submitButton": "Enviar mensaje"
+    }
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "fname": "Nombre",
+    "lname": "Apellido",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "offices": [
+      {
+        "title": "Oficina en Túnez:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3º piso\nTUN - 1002 Túnez"
+      },
+      {
+        "title": "Oficina en Alemania:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
+  },
   "footer": {
     "companyName": "SA COSMOS",
-    "tagline": "Servicios de empleo",
-    "aboutTitle": "Acerca de SA Cosmos Trading GmbH",
-    "aboutDescription": "SA Cosmos es más que una bolsa de trabajo, es un ecosistema dinámico donde el talento se encuentra con la oportunidad. ¡Impulsa tu carrera con nosotros mientras navegas por una gran variedad de ofertas!",
-    "forCandidates": "Para candidatos",
-    "candidateDashboard": "Panel del candidato",
-    "jobAlerts": "Alertas de empleo",
-    "jobDashboard": "Panel de empleos",
+    "tagline": "Servicios de trabajo",
+    "aboutTitle": "Sobre SA Cosmos Trading GmbH",
+    "aboutDescription": "SA Cosmos es más que una bolsa de trabajo, es un ecosistema dinámico donde el talento se encuentra con la oportunidad. ¡Eleva tu carrera con nosotros mientras navegas por una variedad de ofertas!",
+    "forCandidates": "Para Candidatos",
+    "candidateDashboard": "Tablero de Candidatos",
+    "jobAlerts": "Alertas de Trabajo",
+    "jobDashboard": "Tablero de Empleo",
     "myProfile": "Mi perfil",
     "pages": "Páginas",
-    "contactUs": "Contáctenos",
+    "contactUs": "Contáctanos",
     "aboutUs": "Sobre nosotros",
     "legalNotice": "Aviso legal",
     "termsAndConditions": "Términos y condiciones",

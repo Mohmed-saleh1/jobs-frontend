@@ -1,17 +1,60 @@
 {
-  "metadata": {
-    "title": "Contact Us",
-    "description": "Get in touch with us."
+  "languages": {
+    "en": "English",
+    "ar": "Arabic",
+    "fr": "French",
+    "es": "Spanish",
+    "de": "German",
+    "it": "Italian"
   },
-  "home": {
-    "title": "Welcome to My Website"
+  "nav": {
+    "home": "Home",
+    "team": "Team",
+    "title": "SA COSMOS",
+    "subtitle": "Translation Services",
+    "translate": "SA Translate",
+    "about": "About us",
+    "contact": "Contact us",
+    "language": "English",
+    "job": "Post A Job"
+  },
+  "contactForm": {
+    "heading": "Let Us Help You",
+    "subHeading": "Get a free consultation from our team",
+    "description": "You can write to us at any time and we will respond to your messages as soon as possible",
+    "logoAlt": "SA COSMOS Logo",
+    "formFields": {
+      "name": "Name*",
+      "namePlaceholder": "Your Name",
+      "email": "Email*",
+      "emailPlaceholder": "example@email.com",
+      "contactNumber": "Contact Number*",
+      "contactNumberPlaceholder": "Your Contact Number",
+      "message": "Your Message*",
+      "messagePlaceholder": "Your Message Here",
+      "submitButton": "Send Message"
+    }
   },
   "contact": {
     "title": "Contact Us",
-    "name": "Name",
+    "fname": "First Name",
+    "lname": "Last Name",
     "email": "Email",
     "message": "Message",
-    "submit": "Submit"
+    "submit": "Submit",
+    "offices": [
+      {
+        "title": "Office in Tunisia:",
+        "phone": "+216 – 22322545",
+        "address": "35 Chedly kaïlela. 3rd floor\nTUN - 1002 Tunis"
+      },
+      {
+        "title": "Office in Germany:",
+        "phone": "+49 231 - 628 359 46",
+        "address": "Kaiserstraße 10\nDE-44135 Dortmund"
+      }
+    ],
+    "commonEmail": "info@sa-translate.de"
   },
   "footer": {
     "companyName": "SA COSMOS",
