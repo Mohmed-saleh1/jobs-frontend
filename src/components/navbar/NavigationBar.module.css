@@ -6,8 +6,10 @@
   padding: 15px 30px;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  position: relative;
-  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
 }
 
 /* Logo */
@@ -73,7 +75,9 @@
 .mobileMenuContainer {
   position: relative;
 }
-
+.logoContainer {
+  max-width: 170px;
+}
 /* Menu Button */
 .menuButton {
   display: none;
@@ -148,14 +152,17 @@
 
   .menuButton {
     display: block;
+    margin: 0px;
   }
-
-  .title {
-    display: none;
+  .logoContainer {
+    max-width: 90px;
   }
-
+.navbar{
+  padding: 5px;
+}
   .jobButton {
-    font-size: 14px;
-    padding: 8px 12px;
+    font-size: 10px;
+    padding: 8px;
+    max-width: fit-content;
   }
 }

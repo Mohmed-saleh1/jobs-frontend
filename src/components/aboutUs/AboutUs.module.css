@@ -10,6 +10,14 @@
   gap: 40px;
 }
 
+/* Responsive column layout for smaller screens */
+@media (max-width: 1024px) {
+  .contentContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 .textContent {
   flex: 1;
 }
@@ -27,7 +35,7 @@
 }
 
 .description {
-  font-size: 18px;
+  font-size: 28px;
   color: #555;
   margin-bottom: 30px;
 }
@@ -35,6 +43,14 @@
 .infoBlocks {
   display: flex;
   gap: 40px;
+}
+
+/* Stack the info blocks on smaller screens */
+@media (max-width: 768px) {
+  .infoBlocks {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .infoBlock {
@@ -46,24 +62,53 @@
   font-size: 40px;
   color: #c00;
   margin-bottom: 10px;
+  text-align: left;
+
 }
 
 .infoTitle {
-  font-size: 22px;
+  font-size: 19px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  text-align: left;
+
 }
 
 .infoText {
-  font-size: 16px;
+  font-size: 26px;
   color: #555;
+  text-align: left;
+
 }
 
 .imageContainer {
   flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
+/* Make images adapt to small screens */
 .aboutImage {
   width: 100%;
+  max-width: 100%;
   border-radius: 10px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .infoTitle {
+    font-size: 20px;
+  }
+
+  .infoText {
+    font-size: 14px;
+  }
 }

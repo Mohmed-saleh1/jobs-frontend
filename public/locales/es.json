@@ -104,6 +104,34 @@
       "searchDescription": "Busca entre las ofertas abiertas para encontrar el trabajo adecuado para ti.",
       "applyTitle": "Aplica ahora",
       "applyDescription": "Solicita un trabajo con tu currículum y cambia tu carrera."
+    },
+    "steps": {
+    "title": "Pasos",
+    "description": "Descripción de los pasos",
+    "step1": {
+      "title": "Capacitación y certificación de idioma",
+      "description": "Los participantes tienen un diploma de idioma alemán según la norma ÖSD"
+    },
+    "step2": {
+      "title": "Capacitación intercultural",
+      "description": "Contenido cultural y social sobre temas relacionados con el trabajo"
+    },
+    "step3": {
+      "title": "Certificaciones",
+      "description": "Certificados, exámenes, certificados de aprobación, etc., se traducen y certifican."
+    },
+    "step4": {
+      "title": "Documentos de solicitud",
+      "description": "Las CV y las solicitudes se preparan según los estándares alemanes. Se puede organizar una entrevista de trabajo en línea en cualquier momento."
+    },
+    "step5": {
+      "title": "Asuntos de visado",
+      "description": "Se solicitan los documentos necesarios para la entrada de la empresa de navegación."
+    },
+    "step6": {
+      "title": "Transferencia",
+      "description": "La entrada y la alojación para los trabajadores calificados están garantizadas."
     }
+  }
   }
 }

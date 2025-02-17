@@ -1,18 +1,16 @@
 import HowItWorks from "@/components/aboutUs/HowWorks/HowItWorks";
 import AboutUs from "../../../components/aboutUs/AboutUs";
-import { Locale } from "../../../config/i18n";
+import StepsComponent from "@/components/aboutUs/steps/stepsWrapper";
+import { getTranslations } from "@/lib/i18n";
 
-interface AboutPageProps {
-  lang: Locale;
-}
-
-const AboutPage: React.FC<AboutPageProps> = ({ lang }) => {
+export default async function AboutPage({ params }: any) {
+  const { lang } = await params;
+  const t = await getTranslations(lang);
   return (
     <div>
-      <AboutUs lang={lang} />
-      <HowItWorks lang={lang} />
+      <AboutUs t={t} />
+      <HowItWorks t={t} />
+      <StepsComponent t={t} />
     </div>
   );
-};
-
-export default AboutPage;
+}

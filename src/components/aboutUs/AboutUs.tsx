@@ -1,25 +1,17 @@
 import styles from "./AboutUs.module.css";
-import { getTranslations } from "../../lib/i18n";
-import { Locale } from "../../config/i18n";
 import Image from "next/image";
 
-interface AboutUsProps {
-  lang: Locale;
-}
-
-const AboutUs: React.FC<AboutUsProps> = async ({ lang }) => {
-  const t = await getTranslations(lang);
-
+export default function AboutUs({ t }: { t: any }) {
   return (
     <div>
       <Image
-              src="/assets/about/about.jpg"
-              alt="Team"
-              width={1000}
-              height={400}
-              layout="reponsive"
-              className={styles.aboutImage}
-            />
+        src="/assets/about/about.jpg"
+        alt="Team"
+        width={1000}
+        height={400}
+        layout="reponsive"
+        className={styles.aboutImage}
+      />
       <section className={styles.aboutUsSection}>
         <div className={styles.contentContainer}>
           <div className={styles.textContent}>
@@ -57,6 +49,4 @@ const AboutUs: React.FC<AboutUsProps> = async ({ lang }) => {
       </section>
     </div>
   );
-};
-
-export default AboutUs;
+}

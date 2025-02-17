@@ -1,15 +1,7 @@
 import styles from "./howItWorks.module.css";
 import FeatureCard from "./FeatureCard";
-import { Locale } from "@/config/i18n";
-import { getTranslations } from "@/lib/i18n";
 
-interface HowItWorksProps {
-  lang: Locale;
-}
-
-const HowItWorks: React.FC<HowItWorksProps> = async ({ lang }) => {
-  const t = await getTranslations(lang);
-
+export default function HowItWorks({ t }: { t: any }) {
   return (
     <section className={styles.container}>
       <h2 className={styles.heading}>{t.aboutUs.howItWorks.title}</h2>
@@ -21,7 +13,7 @@ const HowItWorks: React.FC<HowItWorksProps> = async ({ lang }) => {
           description={t.aboutUs.howItWorks.registerDescription}
         />
         <FeatureCard
-          imageSrc="/assets/about/search.png"
+          imageSrc="/assets/about/Search.webp"
           title={t.aboutUs.howItWorks.searchTitle}
           description={t.aboutUs.howItWorks.searchDescription}
         />
@@ -33,6 +25,4 @@ const HowItWorks: React.FC<HowItWorksProps> = async ({ lang }) => {
       </div>
     </section>
   );
-};
-
-export default HowItWorks;
+}

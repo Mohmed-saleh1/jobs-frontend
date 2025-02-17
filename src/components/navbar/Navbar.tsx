@@ -22,9 +22,9 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
           alt={translations.nav.title}
           width={170}
           height={60}
+          layout="responsive"
           priority
         />
-        {/* <h1 className={styles.title}>{translations.nav.title}</h1> */}
       </Link>
 
       {/* Desktop Navigation Links */}

@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../components/footer/Footer";
 import NavigationBar from "../../components/navbar/Navbar";
 import Head from "next/head";
+import "../../app/global.css";
 
 export const metadata = {
   title: "SA COSMOS",

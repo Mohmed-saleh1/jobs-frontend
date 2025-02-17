@@ -104,6 +104,34 @@
       "searchDescription": "Durchsuchen Sie offene Stellen, um den richtigen Job für Sie zu finden.",
       "applyTitle": "Jetzt bewerben",
       "applyDescription": "Bewerben Sie sich mit Ihrem Lebenslauf und ändern Sie Ihre Karriere."
+    },
+    "steps": {
+      "title": "Schritte",
+      "description": "Beschreibung der Schritte",
+      "step1": {
+        "title": "Sprachausbildung und Zertifizierung",
+        "description": "Die Teilnehmer haben ein Sprachdiplom gemäß dem ÖSD-Standard"
+      },
+      "step2": {
+        "title": "Kulturtraining",
+        "description": "Kulturelle und soziale Inhalte zu arbeitsbezogenen Themen"
+      },
+      "step3": {
+        "title": "Zertifikate",
+        "description": "Zertifikate, Prüfungen, Zulassungsbescheinigungen usw. werden übersetzt und zertifiziert."
+      },
+      "step4": {
+        "title": "Bewerbungsunterlagen",
+        "description": "CVs und Anträge werden nach deutschen Standards vorbereitet. Ein Online-Stellengespräch kann jederzeit arrangiert werden."
+      },
+      "step5": {
+        "title": "Visumangelegenheiten",
+        "description": "Die für den Eintritt erforderlichen Unterlagen werden von der Reederei angefordert."
+      },
+      "step6": {
+        "title": "Transfer",
+        "description": "Eintritt und Unterkunft für Facharbeiter sind garantiert."
+      }
     }
   }
 }

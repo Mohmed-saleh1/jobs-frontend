@@ -104,6 +104,34 @@
       "searchDescription": "Browse through open positions to find the right job for you.",
       "applyTitle": "Apply Now",
       "applyDescription": "Apply to a job with your resume and change your career."
+    },
+    "steps": {
+      "title": "steps",
+      "description": "Description of the steps",
+      "step1": {
+        "title": "Language training and certification",
+        "description": "The participants have a German language diploma according to the ÖSD standard"
+      },
+      "step2": {
+        "title": "Intercultural training",
+        "description": "Cultural and social content on work-related topics"
+      },
+      "step3": {
+        "title": "Certifications",
+        "description": "Certificates, exams, approval certificates, etc. are translated and certified."
+      },
+      "step4": {
+        "title": "Application documents",
+        "description": "CVs and applications are prepared according to German standards. An online job interview can be arranged at any time"
+      },
+      "step5": {
+        "title": "Visa matters",
+        "description": "Documents required for entry are requested from the boating company"
+      },
+      "step6": {
+        "title": "Transfer",
+        "description": "Entry and accommodation for skilled workers is guaranteed"
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 .card {
   background: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -14,8 +14,8 @@
 }
 
 .image {
-  width: 100px;
-  height: auto;
+  width: 300px;
+   height: auto;
 }
 
 .title {

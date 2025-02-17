@@ -104,6 +104,34 @@
       "searchDescription": "Parcourez les offres disponibles pour trouver le bon emploi pour vous.",
       "applyTitle": "Postulez maintenant",
       "applyDescription": "Postulez à un emploi avec votre CV et changez votre carrière."
+    },
+    "steps": {
+      "title": "Étapes",
+      "description": "Description des étapes",
+      "step1": {
+        "title": "Formation linguistique et certification",
+        "description": "Les participants ont un diplôme de langue allemande selon la norme ÖSD"
+      },
+      "step2": {
+        "title": "Formation interculturelle",
+        "description": "Contenu culturel et social sur des sujets liés au travail"
+      },
+      "step3": {
+        "title": "Certifications",
+        "description": "Les certificats, examens, certificats d'approbation, etc. sont traduits et certifiés."
+      },
+      "step4": {
+        "title": "Documents de candidature",
+        "description": "Les CV et demandes sont préparés selon les normes allemandes. Une interview en ligne peut être organisée à tout moment."
+      },
+      "step5": {
+        "title": "Questions de visa",
+        "description": "Les documents nécessaires à l'entrée sont demandés à la compagnie maritime."
+      },
+      "step6": {
+        "title": "Transfert",
+        "description": "L'entrée et l'hébergement pour les travailleurs qualifiés sont garantis."
+      }
     }
   }
 }
