@@ -1,0 +1,69 @@
+.aboutUsSection {
+  padding: 60px 10%;
+  background-color: #fff;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.textContent {
+  flex: 1;
+}
+
+.subtitle {
+  color: #c00;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.infoBlocks {
+  display: flex;
+  gap: 40px;
+}
+
+.infoBlock {
+  flex: 1;
+  text-align: center;
+}
+
+.icon {
+  font-size: 40px;
+  color: #c00;
+  margin-bottom: 10px;
+}
+
+.infoTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.infoText {
+  font-size: 16px;
+  color: #555;
+}
+
+.imageContainer {
+  flex: 1;
+}
+
+.aboutImage {
+  width: 100%;
+  border-radius: 10px;
+}

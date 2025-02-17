@@ -86,5 +86,24 @@
     "Social Work": "Sozialarbeit",
     "Agriculture and Agronomy": "Landwirtschaft und Agronomie",
     "Finance and Insurance": "Finanzen und Versicherungen"
+  },
+  "aboutUs": {
+    "title": "Über uns",
+    "welcome": "Willkommen bei SA COSMOS Trading GmbH!",
+    "description": "SA-COSMOS in Deutschland, ein globales Unternehmen für Networking, Beratung und den Aufbau von Partnerschaften.",
+    "visionTitle": "Unsere Vision",
+    "visionDescription": "Unser Fokus liegt darauf, hochqualifizierte Arbeitskräfte in der nordafrikanischen Region zu finden, die wir umfassend unterstützen, um sie sprachlich und kulturell auf die Lebensbedingungen in Deutschland vorzubereiten und sie in den deutschen Arbeitsmarkt zu integrieren.",
+    "missionTitle": "Unsere Mission",
+    "missionDescription": "Unser Ziel ist es, talentierte Fachkräfte zu unterstützen und zu fördern, um ihr Potenzial in Deutschland zu erreichen. Wir begegnen auch dem wachsenden Fachkräftemangel in Deutschland, indem wir Unternehmen eine kuratierte Auswahl an Talenten bieten und so den Bedarf an langwierigen Rekrutierungsprozessen eliminieren.",
+    "howItWorks": {
+      "title": "Wie Cosmos funktioniert",
+      "description": "Entdecken Sie unsere neuesten Jobangebote und finden Sie Ihren Traumjob!",
+      "registerTitle": "Kostenlos registrieren",
+      "registerDescription": "Melden Sie sich kostenlos an und entdecken Sie die neuen Dienste von Cosmos.",
+      "searchTitle": "Job suchen",
+      "searchDescription": "Durchsuchen Sie offene Stellen, um den richtigen Job für Sie zu finden.",
+      "applyTitle": "Jetzt bewerben",
+      "applyDescription": "Bewerben Sie sich mit Ihrem Lebenslauf und ändern Sie Ihre Karriere."
+    }
   }
 }

@@ -86,5 +86,24 @@
     "Social Work": "Travail Social",
     "Agriculture and Agronomy": "Agriculture et Agronomie",
     "Finance and Insurance": "Finance et Assurance"
+  },
+  "aboutUs": {
+    "title": "À propos de nous",
+    "welcome": "Bienvenue chez SA COSMOS Trading GmbH !",
+    "description": "SA-COSMOS en Allemagne, une entreprise mondiale pour le réseautage, le conseil et la construction de partenariats.",
+    "visionTitle": "Notre Vision",
+    "visionDescription": "Nous nous concentrons sur la recherche de travailleurs hautement qualifiés dans la région nord-africaine, à qui nous apportons un soutien complet pour les préparer linguistiquement et culturellement aux conditions de vie en Allemagne et les intégrer sur le marché du travail allemand.",
+    "missionTitle": "Notre Mission",
+    "missionDescription": "Nous visons à soutenir et à promouvoir des professionnels talentueux pour les aider à atteindre leur potentiel en Allemagne. Nous répondons également à la pénurie croissante de travailleurs qualifiés en Allemagne en fournissant aux entreprises une sélection de talents, éliminant ainsi le besoin de processus de recrutement longs.",
+    "howItWorks": {
+      "title": "Comment fonctionne Cosmos",
+      "description": "Explorez nos dernières offres d'emploi et trouvez votre emploi de rêve !",
+      "registerTitle": "Inscrivez-vous gratuitement",
+      "registerDescription": "Inscrivez-vous gratuitement et découvrez les nouveaux services que Cosmos a à offrir.",
+      "searchTitle": "Rechercher des offres",
+      "searchDescription": "Parcourez les offres disponibles pour trouver le bon emploi pour vous.",
+      "applyTitle": "Postulez maintenant",
+      "applyDescription": "Postulez à un emploi avec votre CV et changez votre carrière."
+    }
   }
 }

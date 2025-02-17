@@ -1,20 +1,18 @@
-"use client";
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import HowItWorks from "@/components/aboutUs/HowWorks/HowItWorks";
+import AboutUs from "../../../components/aboutUs/AboutUs";
+import { Locale } from "../../../config/i18n";
 
-export default function ContactPage({ params }: any) {
-  const router = useRouter();
+interface AboutPageProps {
+  lang: Locale;
+}
 
-  useEffect(() => {
-    console.log("ContactPage mounted");
-  }, []);
-
+const AboutPage: React.FC<AboutPageProps> = ({ lang }) => {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <button onClick={() => router.push(`/${params.lang}/home`)}>
-        Go to Home
-      </button>
+      <AboutUs lang={lang} />
+      <HowItWorks lang={lang} />
     </div>
   );
-}
+};
+
+export default AboutPage;
