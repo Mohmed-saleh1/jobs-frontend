@@ -72,5 +72,19 @@
     "legalNotice": "Legal Notice",
     "termsAndConditions": "Terms and Conditions",
     "privacyPolicy": "Privacy Policy"
+  },
+  "jobCategories": {
+    "Health and Care": "Health and Care",
+    "IT and Informatics": "IT and Informatics",
+    "Engineering and Technology": "Engineering and Technology",
+    "Crafts and Technical Trades": "Crafts and Technical Trades",
+    "Education and Childcare": "Education and Childcare",
+    "Logistics and Transport": "Logistics and Transport",
+    "Construction": "Construction",
+    "Natural Sciences and Research": "Natural Sciences and Research",
+    "Hospitality and Tourism": "Hospitality and Tourism",
+    "Social Work": "Social Work",
+    "Agriculture and Agronomy": "Agriculture and Agronomy",
+    "Finance and Insurance": "Finance and Insurance"
   }
 }

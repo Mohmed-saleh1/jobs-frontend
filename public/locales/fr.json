@@ -72,5 +72,19 @@
     "legalNotice": "Avis juridique",
     "termsAndConditions": "Conditions générales",
     "privacyPolicy": "Politique de confidentialité"
+  },
+  "jobCategories": {
+    "Health and Care": "Santé et Soins",
+    "IT and Informatics": "IT et Informatique",
+    "Engineering and Technology": "Ingénierie et Technologie",
+    "Crafts and Technical Trades": "Artisanat et Métiers Techniques",
+    "Education and Childcare": "Éducation et Garde d'enfants",
+    "Logistics and Transport": "Logistique et Transport",
+    "Construction": "Construction",
+    "Natural Sciences and Research": "Sciences Naturelles et Recherche",
+    "Hospitality and Tourism": "Hôtellerie et Tourisme",
+    "Social Work": "Travail Social",
+    "Agriculture and Agronomy": "Agriculture et Agronomie",
+    "Finance and Insurance": "Finance et Assurance"
   }
 }

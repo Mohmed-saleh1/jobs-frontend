@@ -1,0 +1,39 @@
+.image:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.wrapper {
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  padding: 20px;
+  margin: auto;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imageContainer {
+  margin-bottom: 15px;
+}
+
+.image {
+  transition: transform 0.3s ease;
+}

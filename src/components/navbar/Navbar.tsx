@@ -20,20 +20,17 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
         <Image
           src="/assets/logo.png"
           alt={translations.nav.title}
-          width={70}
-          height={50}
+          width={170}
+          height={60}
           priority
         />
-        <h1 className={styles.title}>{translations.nav.title}</h1>
+        {/* <h1 className={styles.title}>{translations.nav.title}</h1> */}
       </Link>
 
       {/* Desktop Navigation Links */}
       <div className={styles.navLinks}>
         <Link className={styles.navLink} href={`/${lang}/home`}>
           {translations.nav.home}
-        </Link>
-        <Link className={styles.navLink} href={`/${lang}/team`}>
-          {translations.nav.team}
         </Link>
         <Link className={styles.navLink} href={`/${lang}/about`}>
           {translations.nav.about}

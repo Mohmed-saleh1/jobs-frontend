@@ -35,13 +35,6 @@ const MobileMenu = ({ lang, translations }: MobileMenuProps) => {
         </Link>
         <Link
           className={styles.navLink}
-          href={`/${lang}/team`}
-          onClick={() => setIsOpen(false)}
-        >
-          {translations.nav.team}
-        </Link>
-        <Link
-          className={styles.navLink}
           href={`/${lang}/about`}
           onClick={() => setIsOpen(false)}
         >
