@@ -1,7 +1,7 @@
-import HowItWorks from "@/components/aboutUs/HowWorks/HowItWorks";
+import HowItWorks from "../../../components/aboutUs/HowWorks/HowItWorks";
 import AboutUs from "../../../components/aboutUs/AboutUs";
-import StepsComponent from "@/components/aboutUs/steps/stepsWrapper";
-import { getTranslations } from "@/lib/i18n";
+import StepsComponent from "../../../components/aboutUs/steps/stepsWrapper";
+import { getTranslations } from "../../../lib/i18n";
 
 export default async function AboutPage({ params }: any) {
   const { lang } = await params;

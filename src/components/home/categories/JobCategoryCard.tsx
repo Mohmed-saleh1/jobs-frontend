@@ -1,7 +1,7 @@
-import { Locale } from "@/config/i18n";
+import { Locale } from "../../../config/i18n";
 import styles from "./JobCategoryCard.module.css";
 import Image from "next/image";
-import { getTranslations } from "@/lib/i18n";
+import { getTranslations } from "../../../lib/i18n";
 
 interface JobCategoryCardProps {
   lang: Locale;

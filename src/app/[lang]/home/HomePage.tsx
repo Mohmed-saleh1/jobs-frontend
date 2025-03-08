@@ -1,4 +1,4 @@
-import CategoryWrapper from "@/components/home/categories/JobCategoryWrapper";
+import CategoryWrapper from "../../../components/home/categories/JobCategoryWrapper";
 import { Locale } from "../../../config/i18n";
 
 interface HomePageProps {
