@@ -10,13 +10,13 @@ export default async function ContactPage({ params }: any) {
   return (
     <div>
       <div>
-        <Image
-          src="/assets/about/image1.gif"
-          alt="Team"
-          width={900}
-          height={300}
-          className={ContactPageStyles.aboutImage}
-        />
+      <Image
+        src="/assets/about/image1.gif"
+        alt="Team"
+        width={900}
+        height={300}
+        className={ContactPageStyles.contactImage}
+      />
       </div>
       <div className={ContactPageStyles.background}>
         <div className={ContactPageStyles.container}>
