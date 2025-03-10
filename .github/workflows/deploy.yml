@@ -23,7 +23,6 @@ jobs:
       - name: Deploy to VPS
         run: |
           ssh -i ~/.ssh/id_rsa root@147.93.56.172 << 'EOF'
-            cd /jobs/frontend
             git pull origin main
             npm  install
             npm run build
