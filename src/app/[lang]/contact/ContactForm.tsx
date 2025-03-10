@@ -48,69 +48,71 @@ export default function ContactForm({ t }: { t: any }) {
   };
 
   return (
-    <form className={ContactPageStyles.form} onSubmit={handleSubmit}>
-      <div className={ContactPageStyles.smallField}>
-        <div className={ContactPageStyles.nameContainer}>
-          <div className={ContactPageStyles.field}>
-            <label htmlFor="firstName" className={ContactPageStyles.label}>
-              {t.contact.fname}
-            </label>
-            <input
-              id="firstName"
-              type="text"
-              required
-              className={ContactPageStyles.input}
-            />
-          </div>
-          <div className={ContactPageStyles.field}>
-            <label htmlFor="lastName" className={ContactPageStyles.label}>
-              {t.contact.lname}
-            </label>
-            <input
-              id="lastName"
-              type="text"
-              required
-              className={ContactPageStyles.input}
-            />
+    <div className={ContactPageStyles.bodyContainer}>
+      <form className={ContactPageStyles.form} onSubmit={handleSubmit}>
+        <div className={ContactPageStyles.smallField}>
+          <div className={ContactPageStyles.nameContainer}>
+            <div className={ContactPageStyles.field}>
+              <label htmlFor="firstName" className={ContactPageStyles.label}>
+                {t.contact.fname}
+              </label>
+              <input
+                id="firstName"
+                type="text"
+                required
+                className={ContactPageStyles.input}
+              />
+            </div>
+            <div className={ContactPageStyles.field}>
+              <label htmlFor="lastName" className={ContactPageStyles.label}>
+                {t.contact.lname}
+              </label>
+              <input
+                id="lastName"
+                type="text"
+                required
+                className={ContactPageStyles.input}
+              />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className={ContactPageStyles.field}>
-        <label htmlFor="email" className={ContactPageStyles.label}>
-          {t.contact.email}
-        </label>
-        <input
-          id="email"
-          type="email"
-          required
-          className={ContactPageStyles.input}
+        <div className={ContactPageStyles.field}>
+          <label htmlFor="email" className={ContactPageStyles.label}>
+            {t.contact.email}
+          </label>
+          <input
+            id="email"
+            type="email"
+            required
+            className={ContactPageStyles.input}
+          />
+        </div>
+
+        <div className={ContactPageStyles.field}>
+          <label htmlFor="message" className={ContactPageStyles.label}>
+            {t.contact.message}
+          </label>
+          <textarea
+            id="message"
+            required
+            className={ContactPageStyles.textarea}
+          />
+        </div>
+
+        <ReCAPTCHA
+          sitekey={SITE_KEY}
+          onChange={(token) => setCaptchaToken(token)}
         />
-      </div>
 
-      <div className={ContactPageStyles.field}>
-        <label htmlFor="message" className={ContactPageStyles.label}>
-          {t.contact.message}
-        </label>
-        <textarea
-          id="message"
-          required
-          className={ContactPageStyles.textarea}
-        />
-      </div>
-
-      <ReCAPTCHA
-        sitekey={SITE_KEY}
-        onChange={(token) => setCaptchaToken(token)}
-      />
-
-      <button
-        type="submit"
-        className={ContactPageStyles.submitButton}
-        disabled={loading}
-      >
-        {loading ? "Submitting..." : t.contact.submit}
-      </button>
-    </form>
+        <button
+          type="submit"
+          className={ContactPageStyles.submitButton}
+          disabled={loading}
+        >
+          {loading ? "Submitting..." : t.contact.submit}
+        </button>
+      </form>
+    </div>
   );
 }

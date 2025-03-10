@@ -8,7 +8,7 @@ export default async function ContactPage({ params }: any) {
   const t = await getTranslations(lang);
 
   return (
-    <div className={ContactPageStyles.background}>
+    <div>
       <div>
         <Image
           src="/assets/contact-header.jpg"
@@ -18,12 +18,16 @@ export default async function ContactPage({ params }: any) {
           layout="responsive"
         />
       </div>
-      <div className={ContactPageStyles.container}>
-        <h1 className={ContactPageStyles.title}>{t.contact.title}</h1>
+      <div className={ContactPageStyles.background}>
+        <div className={ContactPageStyles.container}>
+          <h1 className={ContactPageStyles.title}>{t.contact.title}</h1>
 
-        <div className={ContactPageStyles.subContainer}>
-          <p className={ContactPageStyles.subheading}>{t.contact.subheading}</p>
-          <ContactForm t={t} />
+          <div className={ContactPageStyles.subContainer}>
+            <p className={ContactPageStyles.subheading}>
+              {t.contact.subheading}
+            </p>
+            <ContactForm t={t} />
+          </div>
         </div>
       </div>
     </div>

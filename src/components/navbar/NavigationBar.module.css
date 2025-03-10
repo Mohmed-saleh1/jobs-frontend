@@ -9,6 +9,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  margin-bottom: 20px;
   width: 98%;
 }
 
@@ -157,9 +158,9 @@
   .logoContainer {
     max-width: 90px;
   }
-.navbar{
-  padding: 5px;
-}
+  .navbar {
+    padding: 5px;
+  }
   .jobButton {
     font-size: 10px;
     padding: 8px;

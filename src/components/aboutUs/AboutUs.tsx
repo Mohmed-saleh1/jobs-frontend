@@ -5,11 +5,10 @@ export default function AboutUs({ t }: { t: any }) {
   return (
     <div>
       <Image
-        src="/assets/about/about.jpg"
+        src="/assets/about/image1.gif"
         alt="Team"
-        width={1000}
-        height={400}
-        layout="reponsive"
+        width={900}
+        height={300}
         className={styles.aboutImage}
       />
       <section className={styles.aboutUsSection}>

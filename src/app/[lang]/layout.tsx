@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "../../components/footer/Footer";
 import NavigationBar from "../../components/navbar/Navbar";
 import Head from "next/head";
-import "../../app/global.css";
 
 export const metadata = {
   title: "SA COSMOS",
@@ -15,10 +14,11 @@ export default async function RootLayout({ children, params }: any) {
       <Head>
         <title>Team Page</title>
       </Head>
-      <NavigationBar lang={lang} />
+      <body>
+        <NavigationBar lang={lang} />
 
-      <main>{children}</main>
-
+        <main>{children}</main>
+      </body>
       <footer>
         <Footer lang={lang} />
       </footer>
