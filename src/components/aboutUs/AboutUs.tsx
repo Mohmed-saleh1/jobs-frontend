@@ -4,6 +4,7 @@ import Image from "next/image";
 export default function AboutUs({ t }: { t: any }) {
   return (
     <div>
+      <h1>CI/CD WORKS</h1>
       <Image
         src="/assets/about/image1.gif"
         alt="Team"
