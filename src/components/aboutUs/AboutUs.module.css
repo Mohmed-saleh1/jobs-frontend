@@ -84,16 +84,6 @@
   justify-content: center;
 }
 
-/* Make images adapt to small screens */
-.aboutImage {
-  width: 60%;
-  height: 500px;
-  display: flex;
-  align-items: start;
-  margin: 10px auto;
-  height: auto;
-}
-
 @media (max-width: 768px) {
   .title {
     font-size: 28px;

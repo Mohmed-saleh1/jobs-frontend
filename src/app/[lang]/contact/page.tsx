@@ -11,11 +11,11 @@ export default async function ContactPage({ params }: any) {
     <div>
       <div>
         <Image
-          src="/assets/contact-header.jpg"
-          alt="Contact Support Team"
-          width={1200}
+          src="/assets/about/image1.gif"
+          alt="Team"
+          width={900}
           height={300}
-          layout="responsive"
+          className={ContactPageStyles.aboutImage}
         />
       </div>
       <div className={ContactPageStyles.background}>

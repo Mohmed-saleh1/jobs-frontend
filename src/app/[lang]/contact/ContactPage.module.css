@@ -16,6 +16,16 @@
   min-height: 1100px;
 }
 
+/* Make images adapt to small screens */
+.contactImage {
+  width: 60%;
+  height: 500px;
+  display: flex;
+  align-items: start;
+  margin: 10px auto;
+  height: auto;
+}
+
 /* 🎯 Page Title */
 .title {
   font-size: 2rem;

@@ -4,14 +4,6 @@ import Image from "next/image";
 export default function AboutUs({ t }: { t: any }) {
   return (
     <div>
-      <h1>CI/CD WORKS</h1>
-      <Image
-        src="/assets/about/image1.gif"
-        alt="Team"
-        width={900}
-        height={300}
-        className={styles.aboutImage}
-      />
       <section className={styles.aboutUsSection}>
         <div className={styles.contentContainer}>
           <div className={styles.textContent}>
