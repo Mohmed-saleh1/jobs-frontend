@@ -1,4 +1,26 @@
 {
+  "jobSearch": {
+    "header": {
+      "beforeNumber": "We have more than",
+      "afterNumber": "jobs waiting for you!"
+    },
+    "jobsCount": "1400",
+    "subText": "Search Now",
+    "jobsTab": "Jobs & Apprenticeship",
+    "resumesTab": "Resumes",
+    "keywordsPlaceholder": "Keywords",
+    "categoryPlaceholder": "Choose a category...",
+    "searchButton": "Search",
+    "categories": {
+      "it": "IT & Software",
+      "finance": "Finance & Banking",
+      "marketing": "Marketing & Advertising"
+    }
+  },
+  "featuredJobs": {
+    "title": "Featured Jobs",
+    "noVacancies": "There are currently no vacancies."
+  },
   "languages": {
     "en": "English",
     "ar": "Arabic",

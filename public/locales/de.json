@@ -7,6 +7,30 @@
     "de": "Deutsch",
     "it": "Italienisch"
   },
+
+  "featuredJobs": {
+    "title": "Vorgestellte Jobs",
+    "noVacancies": "Derzeit gibt es keine offenen Stellen."
+  },
+
+  "jobSearch": {
+    "header": {
+      "beforeNumber": "Wir haben mehr als",
+      "afterNumber": "Jobs für dich!"
+    },
+    "jobsCount": "1400",
+    "subText": "Jetzt suchen",
+    "jobsTab": "Jobs & Ausbildung",
+    "resumesTab": "Lebensläufe",
+    "keywordsPlaceholder": "Schlüsselwörter",
+    "categoryPlaceholder": "Kategorie wählen...",
+    "searchButton": "Suchen",
+    "categories": {
+      "it": "IT & Software",
+      "finance": "Finanzen & Bankwesen",
+      "marketing": "Marketing & Werbung"
+    }
+  },
   "nav": {
     "home": "Startseite",
     "team": "Team",

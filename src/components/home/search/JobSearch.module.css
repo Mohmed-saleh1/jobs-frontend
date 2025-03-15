@@ -1,0 +1,80 @@
+.jobSearch {
+    background: linear-gradient(to right, #8360c3, #ff758c);
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 1400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  .container {
+    max-width: 1000px;
+    width: auto;
+    margin: auto;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header span {
+    color: #0015ff;
+  }
+  
+  .subText {
+    margin-bottom: 20px;
+  }
+  
+  .searchBox {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .tabs button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .tabs .active {
+    border-bottom: 2px solid blue;
+  }
+  
+  .searchInputs {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+  
+  .searchInputs input,
+  .searchInputs select {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .searchButton {
+    background: #0015ff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

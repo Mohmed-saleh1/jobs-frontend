@@ -1,0 +1,13 @@
+.contactImage {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    margin: 10px auto;
+    height: auto;
+  }
+
+  .container{
+    margin-top: 200px;
+
+  }

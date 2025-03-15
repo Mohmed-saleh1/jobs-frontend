@@ -7,6 +7,28 @@
     "de": "Allemand",
     "it": "Italien"
   },
+  "featuredJobs": {
+    "title": "Empleos Destacados",
+    "noVacancies": "Actualmente no hay vacantes."
+  },
+  "jobSearch": {
+    "header": {
+      "beforeNumber": "Nous avons plus de",
+      "afterNumber": "emplois qui vous attendent!"
+    },
+    "jobsCount": "1400",
+    "subText": "Rechercher maintenant",
+    "jobsTab": "Emplois & Apprentissages",
+    "resumesTab": "CV",
+    "keywordsPlaceholder": "Mots-clés",
+    "categoryPlaceholder": "Choisir une catégorie...",
+    "searchButton": "Rechercher",
+    "categories": {
+      "it": "Informatique & Logiciels",
+      "finance": "Finance & Banque",
+      "marketing": "Marketing & Publicité"
+    }
+  },
   "nav": {
     "home": "Accueil",
     "team": "Équipe",

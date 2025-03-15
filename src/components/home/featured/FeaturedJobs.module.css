@@ -1,0 +1,31 @@
+.featuredJobs {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.underline {
+  width: 150px;
+  height: 4px;
+  background-color: #8b0000;
+  margin: 5px 0;
+}
+
+.jobContainer {
+  border: 2px solid #000080;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.noVacancies {
+  font-size: 16px;
+  color: #333;
+}
+.rootContainer {
+margin: 20px 230px;
+}
