@@ -38,6 +38,14 @@ const NavigationBar = async ({ lang }: NavigationBarProps) => {
         <Link className={styles.navLink} href={`/${lang}/contact`}>
           {translations.nav.contact}
         </Link>
+
+        <Link className={styles.navLink} href={`/${lang}/jobs`}>
+          {translations.nav.jobs}
+        </Link>
+
+        <Link className={styles.navLink} href={`/${lang}/contact`}>
+          {translations.nav.Apprenticeship}
+        </Link>
       </div>
 
       {/* Right Side: Language + Job Button + Mobile Menu */}

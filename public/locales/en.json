@@ -37,8 +37,10 @@
     "translate": "SA Translate",
     "about": "About us",
     "contact": "Contact us",
+    "Apprenticeship": "Apprenticeship",
     "language": "English",
-    "job": "Post A Job"
+    "job": "Post A Job",
+    "jobs": "Jobs"
   },
   "contactForm": {
     "heading": "Let Us Help You",

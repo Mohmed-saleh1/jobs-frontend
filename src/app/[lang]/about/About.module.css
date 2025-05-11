@@ -2,7 +2,7 @@
     width: 40%;
     height: 200px;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     margin: 10px auto;
     height: auto;
   }

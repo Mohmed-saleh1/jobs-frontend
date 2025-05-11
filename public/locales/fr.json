@@ -38,7 +38,9 @@
     "about": "À propos de nous",
     "contact": "Contactez-nous",
     "language": "Français",
-    "job": "Publier une Offre d'Emploi"
+    "Apprenticeship": "Apprentissage",
+    "job": "Publier une Offre d'Emploi",
+    "jobs": "Emplois"
   },
   "contactForm": {
     "heading": "Laissez-nous vous aider",

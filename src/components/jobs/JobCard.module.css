@@ -1,0 +1,123 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, border 0.2s ease, box-shadow 0.2s ease;
+    flex-wrap: wrap;
+    margin: 0 15rem;
+    margin-top: 2rem;
+    min-height: 8rem;
+
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    border: 1px solid #0070f3;
+    box-shadow: 0 4px 12px rgba(0, 112, 243, 0.2);
+  }
+  
+  .logo {
+    flex-shrink: 0;
+  }
+  
+  .content {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .title {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .company {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 0.2rem 0;
+  }
+  
+  .location {
+    color: #777;
+  }
+  
+  .description {
+    font-size: 0.9rem;
+    color: #444;
+    margin: 0.5rem 0;
+  }
+  
+  .meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: #888;
+    margin-top: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .salary {
+    background: #eef7ff;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .quickApply {
+    background: #e6f7e6;
+    color: #2d8a34;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+  }
+  
+  /* ✅ Responsive layout */
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .logo {
+      margin-bottom: 0.5rem;
+    }
+  
+    .title {
+      font-size: 1.1rem;
+    }
+  
+    .description {
+      font-size: 0.85rem;
+    }
+  
+    .meta {
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      padding: 0.75rem;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  
+    .company {
+      font-size: 0.9rem;
+    }
+  
+    .description {
+      font-size: 0.8rem;
+    }
+  
+    .meta {
+      font-size: 0.8rem;
+    }
+  }
+  

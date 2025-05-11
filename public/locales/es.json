@@ -16,7 +16,9 @@
     "about": "Sobre nosotros",
     "contact": "Contáctanos",
     "language": "Español",
-    "job": " Publicar un Trabajo"
+    "Apprenticeship": "Aprendizaje",
+    "job": " Publicar un Trabajo",
+    "jobs": "Empleos"
   },
   "featuredJobs": {
     "title": "Empleos Destacados",
